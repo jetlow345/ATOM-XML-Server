@@ -1,0 +1,45 @@
+Server started
+Status 201 - HTTP_CREATED
+Connected to server
+Status 200 - PUT reqeuest successful
+Content Server connected through: 4567 port
+Status 201 - HTTP_CREATED
+Connected to server
+Status 200 - GET request successful
+Client connected through: 4567 port
+PUT /atom.xml HTTP/1.1
+User-Agent: ATOMClient/1/0
+Content-Type: application/atom+xml
+
+<?xml version='1.0'encoding='iso-8859-1'?>
+<feed xml:lang='en-US'xmlns='http://www.w3.org/2005/Atom'>
+title:My example feed
+subtitle:for demonstration purposes
+link:www.cs.adelaide.edu.au
+updated:2015-08-07T18:30:02Z
+author:Santa Claus
+id:urn::uuid:60a76c80-d399-11d9-b93C-0003939e0af6
+</feed>
+
+Update Lamport Clock: 1
+Server started
+Connected to server
+Status 201 - HTTP_CREATED
+Connected to server
+Status 200 - GET request successful
+Client connected through: 4567 port
+PUT /atom.xml HTTP/1.1
+User-Agent: ATOMClient/1/0
+Content-Type: application/atom+xml
+
+<?xml version='1.0'encoding='iso-8859-1'?>
+<feed xml:lang='en-US'xmlns='http://www.w3.org/2005/Atom'>
+title:My example feed
+subtitle:for demonstration purposes
+link:www.cs.adelaide.edu.au
+updated:2015-08-07T18:30:02Z
+author:Santa Claus
+id:urn::uuid:60a76c80-d399-11d9-b93C-0003939e0af6
+</feed>
+
+Update Lamport Clock: 1
